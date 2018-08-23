@@ -1,0 +1,38 @@
+@media only screen and (max-width: 892px) {
+
+/* the first part (body, header) */
+
+body{margin:0; padding:0; background-image:url("wall.jpg"); background-size:100% 100%; font-family:rockwell;}
+
+header{background-color:black; color:white; font-size:2vw; padding:1.8vw; margin:1.8vw;}
+
+.orange{color:orange;}
+
+
+/* the second part (left container)*/ 
+
+#left-container{float:left; width:32vw; border:solid black; border-width: 0.3vw 0.15vw 0.3vw 0; margin-bottom:100px;}
+
+img{width:50%; height:50%; display:block; margin:5% auto 0;}
+
+h1{text-align:center; font-size:3vw;}  h2{text-align:center; font-size:2.2vw;}  h3{text-align:center; font-size:2vw;}
+
+hr{height:0.3vw; background-color:black;}
+
+p{text-align:center; font-size:2vw; line-height:2.7vw;}
+
+
+
+/* the third part (right container)*/
+
+#right-container{float:left; width:65vw; border:solid black; border-width: 0.3vw 0 0.3vw 0.15vw; margin-bottom:100px;}
+
+.skill{text-align:center; width:21vw; float:left;}
+
+#head-skill-one{text-align:left; font-size:3vw; margin-left:3vw; clear:both;}
+
+#head-skill-two{text-align:left; font-size:3vw; margin-left:3vw; clear:both; padding-top:3vw;}
+
+#logo_sql{margin-bottom:3vw;}
+
+}
